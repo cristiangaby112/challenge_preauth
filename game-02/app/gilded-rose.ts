@@ -67,7 +67,7 @@ export class GildedRose {
       }
 
       // # Sulfuras Artículo
-      if (this.items[i].name === "Sulfuras, Hand of Ragnaros") {
+      if (this.items[i].name === "Sulfuras") {
         this.items[i].sellIn -= 1;
         this.items[i].quality = 80;
       }
